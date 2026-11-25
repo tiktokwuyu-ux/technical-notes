@@ -139,57 +139,116 @@ defineSlots<{
 
 插槽是 Vue 组件公开 API 的一部分。固定结构、明确命名、类型化 slot props 与业务操作所有权共同决定组件的可维护性。适度开放展示扩展点，比为每种业务情况持续增加组件属性更有效。
 
-## 热搜标题与本站资料
+## 本站 URL 数据样本
 
-以下热搜标题仅作当日资讯记录；本站链接为独立资料，并非该新闻的报道。
+以下为本站公开页面地址样本，与上文技术示例及下方热搜无关。
 
-- 热搜：伪人AI广告 已经成了一种新的城市病；本站资料：<https://www.yxtiktok.com/blog/evaluate-tiktok-live-leaderboard-for-recruitment-list/>
-- 热搜：特朗普致电黄仁勋：答应我一件事；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-daily-recruitment-plan/>
-- 热搜：太平洋暖得“失控”了；本站资料：<https://www.yxtiktok.com/blog/creator-not-interested-agency-recruitment-status/>
-- 热搜：东北外卖15分钟冻成冰；本站资料：<https://www.yxtiktok.com/blog/tiktok-coins-gifts-diamonds-difference/>
-- 热搜：大爷抵脖子不放后小伙倒地 地铁回应；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-streamer-segmented-management/>
-- 热搜：睡眠大赛4人躺赢平分6000元；本站资料：<https://www.yxtiktok.com/blog/tiktok-live-pk-interaction-planning/>
-- 热搜：动辄千元起步的户外徒步鞋火了；本站资料：<https://www.yxtiktok.com/blog/remote-tiktok-agency-team-shared-creator-data/>
-- 热搜：松鼠妈妈六次示范教小松鼠跳树成功；本站资料：<https://www.yxtiktok.com/blog/prioritize-tiktok-creators-by-live-activity-eligibility/>
-- 热搜：外交部回应“黄仁勋重回英伟达”；本站资料：<https://www.yxtiktok.com/blog/tiktok-streamer-performance-decline-recovery-plan/>
-- 热搜：分享你拍的超级月亮；本站资料：<https://www.yxtiktok.com/blog/tiktok-creator-pre-signing-info-minimization/>
-- 热搜：余承东现场提词器曝光；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-creator-incentive-communication/>
-- 热搜：课堂上的“嘉豪、嘉欣” 已不敢举手；本站资料：<https://www.yxtiktok.com/blog/new-tiktok-agency-creator-pool-and-roles/>
-- 热搜：天还没亮 学生就集体站在操场晨读；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-many-leads-low-signup-rate/>
-- 热搜：一校一主题 消谣育青年；本站资料：<https://www.yxtiktok.com/blog/tiktok-creator-discovery-ranking-live-profile-workflow/>
-- 热搜：中国人登月又近一步；本站资料：<https://www.yxtiktok.com/blog/tiktok-live-awkward-silence-topic-switching/>
-- 热搜：19楼落地窗底部装无限位外凸窗；本站资料：<https://www.yxtiktok.com/blog/tiktok-streamer-recruitment-communities/>
-- 热搜：文吉儿从小就活跃在各大荧幕；本站资料：<https://www.yxtiktok.com/blog/calculate-tiktok-creator-recruitment-conversion-rate/>
-- 热搜：央行将开展8000亿元MLF操作；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-first-recruitment-dm-scripts/>
-- 热搜：车企老板娘女装卖了30亿；本站资料：<https://www.yxtiktok.com/blog/evaluate-tiktok-creator-with-limited-history/>
-- 热搜：香奈儿包日租仅需25元？押金要一万六；本站资料：<https://www.yxtiktok.com/blog/why-tiktok-live-ranking-differs-from-real-performance/>
-- 热搜：特朗普连发30多张照片“回味”深圳；本站资料：<https://www.yxtiktok.com/blog/tiktok-streamer-rejects-agency-advice/>
-- 热搜：几个姑娘在-25℃的黑龙江清凉上阵；本站资料：<https://www.yxtiktok.com/blog/tiktok-live-agency-differentiated-creator-offer/>
-- 热搜：泰警方确认女子异地遇害被肢解抛尸；本站资料：<https://www.yxtiktok.com/blog/tiktok-followers-vs-live-engagement-recruiting/>
-- 热搜：飞机与“超级月亮”浪漫同框；本站资料：<https://www.yxtiktok.com/blog/tiktok-live-cohost-chatting-tips/>
-- 热搜：中国城市 重排全球座次；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-low-live-hours-diagnosis/>
-- 热搜：田秉毅任国家羽毛球队主教练；本站资料：<https://www.yxtiktok.com/blog/record-tiktok-creator-invite-check-history/>
-- 热搜：Mate X8 华为史上最强大折叠；本站资料：<https://www.yxtiktok.com/blog/reduce-duplicate-work-multiple-tiktok-agency-accounts/>
-- 热搜：旺仔牛奶更不好卖了；本站资料：<https://www.yxtiktok.com/blog/tiktok-creator-pipeline-status-management/>
-- 热搜：年产1500万根的“棍子” 卖出10亿元；本站资料：<https://www.yxtiktok.com/blog/tiktok-streamer-live-schedule-reminder-scripts/>
-- 热搜：Anthropic上市5天即破发；本站资料：<https://www.yxtiktok.com/blog/tiktok-live-fan-club-features/>
-- 热搜：受贿1.13亿余元！吴胜华被判无期；本站资料：<https://www.yxtiktok.com/blog/multi-country-tiktok-agency-team-language-allocation/>
-- 热搜：新娘提1341次分手新郎回1342次不行；本站资料：<https://www.yxtiktok.com/blog/tiktok-country-ranking-find-live-creators/>
-- 热搜：冯远征笑称“考北京人艺其实不难”；本站资料：<https://www.yxtiktok.com/blog/tiktok-live-creator-agency-contract-checklist/>
-- 热搜：培养更多高技能人才和大国工匠；本站资料：<https://www.yxtiktok.com/blog/schedule-cross-timezone-tiktok-creator-recruiting-team/>
-- 热搜：“民主党向黄仁勋和英伟达宣战”；本站资料：<https://www.yxtiktok.com/blog/why-invitable-tiktok-creator-may-not-join/>
-- 热搜：上海市委书记陈吉宁被查；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-multilingual-recruitment-script-library/>
-- 热搜：加州给548名死刑犯减刑 特朗普震怒；本站资料：<https://www.yxtiktok.com/blog/tiktok-game-streamer-audience-interaction/>
-- 热搜：华为首款小折叠电脑发布；本站资料：<https://www.yxtiktok.com/blog/small-tiktok-live-agency-staff-tool-budget/>
-- 热搜：华为Mate 90 Air售价4999元起；本站资料：<https://www.yxtiktok.com/blog/tiktok-entertainment-live-opening-retention/>
-- 热搜：国产可口可乐不再标生产日期；本站资料：<https://www.yxtiktok.com/blog/assess-third-party-tiktok-live-ranking-coverage/>
-- 热搜：黄奕用AI视频还原过去三十年人生；本站资料：<https://www.yxtiktok.com/blog/how-tiktok-agency-prove-identity-to-creator/>
-- 热搜：小米Q3净利润48.84亿 同比减少56.8%；本站资料：<https://www.yxtiktok.com/blog/creator-already-in-other-network-new-invite/>
-- 热搜：换脸还没消停 “AI融脸”又来了；本站资料：<https://www.yxtiktok.com/blog/tiktok-agency-recruiter-performance-kpis/>
-- 热搜：中考要不要考历史 教材主编征集意见；本站资料：<https://www.yxtiktok.com/blog/tiktok-diamonds-vs-creator-rewards/>
-- 热搜：注水长剧的“狼”来了；本站资料：<https://www.yxtiktok.com/blog/why-tiktok-agency-deduplicate-creator-uid/>
-- 热搜：黄磊真空围裙；本站资料：<https://www.yxtiktok.com/blog/early-signs-streamer-unhappy-with-agency/>
-- 热搜：北京天空现“超级月亮”；本站资料：<https://www.yxtiktok.com/blog/small-tiktok-live-agency-essential-team-roles/>
-- 热搜：大众拟裁员10万人 工会威胁罢工；本站资料：<https://www.yxtiktok.com/blog/manual-vs-software-tiktok-streamer-recruitment/>
-- 热搜：重庆男孩被坠楼男子砸中送医；本站资料：<https://www.yxtiktok.com/blog/tiktok-chat-streamer-improvisation-training/>
-- 热搜：女子登山上班往返约6小时已瘦12斤；本站资料：<https://www.yxtiktok.com/blog/clean-invalid-stale-tiktok-creator-lead-records/>
+```text
+https://www.yxtiktok.com/blog/tiktok-host-recruitment-cost-per-signed-creator/
+https://www.yxtiktok.com/blog/talk-to-new-tiktok-live-creator-needs/
+https://www.yxtiktok.com/blog/tiktok-agency-streamer-maintenance-schedule/
+https://www.yxtiktok.com/tutorials/tiktok-ios-non-jailbreak-dm-tutorial/
+https://www.yxtiktok.com/blog/reassess-long-unfollowed-tiktok-creator-leads/
+https://www.yxtiktok.com/blog/tiktok-agency-recruiter-performance-kpis/
+https://www.yxtiktok.com/blog/tiktok-agency-recruitment-message-cooperation-terms/
+https://www.yxtiktok.com/blog/daily-tiktok-agency-recruitment-report-kpis/
+https://www.yxtiktok.com/blog/does-higher-tiktok-live-league-mean-better-recruit/
+https://www.yxtiktok.com/blog/remote-tiktok-agency-team-shared-creator-data/
+https://www.yxtiktok.com/blog/tiktok-agency-creator-live-schedule/
+https://www.yxtiktok.com/blog/tiktok-live-host-review-meeting-metrics/
+https://www.yxtiktok.com/blog/tiktok-live-replay-review-method/
+https://www.yxtiktok.com/blog/tiktok-agency-streamer-event-participation/
+https://www.yxtiktok.com/blog/single-country-tiktok-agency-creator-pipeline/
+https://www.yxtiktok.com/blog/tiktok-backstage-normal-vs-premium-invite/
+https://www.yxtiktok.com/blog/early-signs-streamer-unhappy-with-agency/
+https://www.yxtiktok.com/blog/tiktok-agency-recruitment-communication-tips/
+https://www.yxtiktok.com/blog/tiktok-streamer-recruitment-communities/
+https://www.yxtiktok.com/blog/tiktok-backstage-creator-management-relationship/
+https://www.yxtiktok.com/blog/why-recheck-creator-eligibility-before-contact/
+https://www.yxtiktok.com/blog/evaluate-tiktok-creator-with-limited-history/
+https://www.yxtiktok.com/blog/tiktok-live-welcome-viewers-scripts/
+https://www.yxtiktok.com/blog/tiktok-streamer-recruitment-channels-by-country/
+https://www.yxtiktok.com/blog/new-tiktok-agency-creator-pool-and-roles/
+https://www.yxtiktok.com/blog/prioritize-tiktok-creators-by-live-activity-eligibility/
+https://www.yxtiktok.com/blog/tiktok-agency-recruitment-support-pitch/
+https://www.yxtiktok.com/blog/tiktok-followers-vs-live-engagement-recruiting/
+https://www.yxtiktok.com/blog/tiktok-agency-first-call-creator-needs-questions/
+https://www.yxtiktok.com/blog/tiktok-singing-live-setlist-interaction/
+https://www.yxtiktok.com/blog/tiktok-live-entertainment-gaming-shopping-creators/
+https://www.yxtiktok.com/blog/tiktok-agency-first-recruitment-dm-scripts/
+https://www.yxtiktok.com/blog/tiktok-live-match-pk-rules/
+https://www.yxtiktok.com/blog/small-tiktok-live-agency-staff-tool-budget/
+https://www.yxtiktok.com/blog/tiktok-new-streamer-training-curriculum/
+https://www.yxtiktok.com/blog/select-tiktok-entertainment-live-creator-content-types/
+https://www.yxtiktok.com/blog/find-tiktok-live-creators-streaming-now/
+https://www.yxtiktok.com/blog/tiktok-creator-network-creator-relationship/
+https://www.yxtiktok.com/blog/tiktok-agency-invite-not-found-troubleshooting/
+https://www.yxtiktok.com/blog/small-tiktok-live-agency-priority-creator-types/
+https://www.yxtiktok.com/blog/tiktok-agency-streamer-segmented-management/
+https://www.yxtiktok.com/blog/tiktok-live-pk-interaction-planning/
+https://www.yxtiktok.com/blog/tiktok-agency-cross-country-invite-region-rules/
+https://www.yxtiktok.com/blog/multi-country-tiktok-agency-team-language-allocation/
+https://www.yxtiktok.com/blog/top-vs-mid-tier-tiktok-live-creators-agency/
+https://www.yxtiktok.com/blog/tiktok-live-creator-agency-contract-checklist/
+https://www.yxtiktok.com/blog/tiktok-agency-streamer-manager-performance-kpis/
+https://www.yxtiktok.com/blog/tiktok-agency-streamer-referral-recruitment/
+https://www.yxtiktok.com/blog/tiktok-new-creator-coaching-payback-period/
+https://www.yxtiktok.com/blog/reduce-duplicate-work-multiple-tiktok-agency-accounts/
+```
+
+## 热搜标题
+
+以下仅为采集时的资讯标题记录。
+
+- 同心合锦 织向未来
+- 特朗普一直夸一直夸 完全停不下来
+- “转人工转人工 给我转人工”
+- 神舟二十四号发射成功
+- 中外航天员实现首次“太空握手”
+- 近四成低龄老年人愿意继续工作
+- “数学回不到从前了”
+- 央视揭秘走私孕妇血样大案
+- 《再见老板》要来了？网友疯狂提名
+- 詹姆斯：背后说我坏话 当面找我握手
+- 《丑狐》凭什么让全网催更
+- 护卫银发与童心 让网络温暖无虞
+- 高以忱获刑十一年
+- 女研究生一行3人青海自驾游失联
+- 河南老中医收藏一套清朝手术刀
+- 中方回应“美将对中国等国加征关税”
+- 巴基斯坦航天员在天宫中文唠嗑
+- 国台办回应“欧阳娜娜几度哽咽”
+- “面具之下 谁都可以是赛伊德”
+- 老电影翻新 一部能赚多少钱
+- 张哲华 龙傲天和喜剧之后
+- 地级市市长转任县委书记
+- 大三男生做保姆 入职俩月胖了近30斤
+- 儿子目睹父亲被杀患上严重精神疾病
+- “最火性转马尔福”作者是中专生
+- 2026年环球小姐冠军诞生
+- 迪丽热巴“最佳红毯着装”
+- 全国艾滋病治疗成功比例达95%以上
+- 郭涛儿子石头：希望尽量赶上爸爸
+- 《变形计》“最像姐妹的母女”
+- 台湾屏东县海域发生4.8级地震
+- 胡海泉“悟道”被网友质疑炒股亏了
+- 宇宙级全家福集齐9宫格
+- 中外航天员在中国空间站合影
+- 女子穿楚服看楚展被误认穿“和服”
+- 求婚遭打断要求免单是小题大做吗
+- “世界超市”又爆单了
+- 小区健身器材才是真宝藏
+- 三种流感毒株叠加来袭
+- 南方人快看 大风吹雪拉出“长毛”
+- 厂家称直播灌装荔枝冰酒都是造假
+- 前日本女乒名将石川佳纯宣布结婚
+- 女子每天从保定通勤6小时到北京上班
+- 神23神24航天员今天一起吃午饭
+- 首位已婚已育环球小姐冠军诞生
+- 山寨“塔斯汀”开出1300家门店
+- 马来西亚总理：中国南海谈判很讲道理
+- 巴基斯坦总理：感谢兄弟般的中国
+- 巴驻华大使：好好学中文 万一上太空了
+- 斗鱼及创始人陈少杰被执行1.9亿
+
+<!-- publisher:github-format=2 -->
